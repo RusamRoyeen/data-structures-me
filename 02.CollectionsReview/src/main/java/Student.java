@@ -33,6 +33,7 @@ public class Student {
         return id == student.id && name.equals(student.name);
     }
 
+
     @Override
     public int hashCode() {
         int result = id;
